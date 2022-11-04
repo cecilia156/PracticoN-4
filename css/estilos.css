@@ -1,0 +1,129 @@
+body {
+  background-color: lightgreen;
+  background-image: url(../imagenes/chipá.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+   color: black;
+   font-size: 30px;}
+
+.titulo {
+  color: darkblue;
+  text-decoration: underline;
+  font-size: 35px;
+  text-align: center;
+}
+
+.subtitulo{color:red;
+  font-size: 50px;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.listas {color: green;
+   text-align: inherit;
+    text-decoration: underline;
+     font-size: 45px;
+    }
+
+    #img_chipa {
+     width: auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+    }
+
+.musica{
+  width: 20%
+}
+    .redes{
+      width: 55px;
+    }
+
+    .google{
+      height: 60px
+    }
+
+    .whatsapp{
+      width: 60px;
+      position: fixed;
+      bottom: 10px;
+      right: 15px;
+    }
+
+    .logo{
+      width: 160px;
+    }
+
+.cajas-redes0{
+  background-color: beige;
+height: 60px;
+display: flex;
+justify-content: space-around;
+}
+
+.cajas-redes{
+
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+
+.info_programador{
+  background-color: beige;
+  text-align: center;
+  font-size: 22px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+header{
+      border: 5px black solid;
+      border-radius: 20px;
+      width: 99%;
+      margin-right: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+ }
+
+  nav{
+    background-color: lightgreen;
+    width: 99%;
+    border: 3px black dotted;
+    display: flex;
+    justify-content:  space-around;
+    }
+
+    section{
+      background-color: beige;
+      border: 5px black solid;
+      width: 65%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    aside{
+      background-color: red;
+      border: 5px;
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+
+  footer{
+    background-color: gray;
+    border: 5px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
